@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+	<script src="bubbles.js"></script>
+</head>
+
+</body>
+<a-scene id="scene">  
+	<a-sound src="assets/pop.mp3" autoplay="false" id="popsound"></a-sound>
+	<a-sky color="#FFFCFF"></a-sky>
+	
+	<a-camera>
+		<a-entity cursor="fuse: true; fuseTimeout: 200"
+            position="0 0 -1"
+            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+            material="color: black; shader: flat">
+		</a-entity>
+	</a-camera>
+		
+
+	
+	<a-entity startbubble="radius: 1" position="-2 1.5 -5">
+		<a-entity text="align: center; color: #3e2286; opacity: 1; transparent: false; value: pop me; width: 5; zOffset: 0" position="0.75, 0, 1.18"></a-entity>
+	</a-sphere>
+
+
+</a-scene>
+</body>
+</html>
