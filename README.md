@@ -1,4 +1,5 @@
 # bubbles
 Playing around with aframe
 
-view online: http://www.lydia-leigh.com/aframe/bubbles.html
+This code is copyrighted under CC-BY 4.0
+https://creativecommons.org/licenses/by/4.0/legalcode
